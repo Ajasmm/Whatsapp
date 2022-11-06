@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+.header{
+    height: 91px;
+    background-color: #128c7e;
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-start{
+    width: 250px;
+    cursor: pointer;
+}
+
+.h-center{
+    display: flex;
+    width: 700px;
+    min-width: 600px;
+    justify-content: space-evenly;
+}
+.h-center p{
+    width: fit-content;
+    cursor: pointer;
+}
+.h-end{
+    display: flex;
+    cursor: pointer;
+}
+.h-end p{
+    margin-inline: 3px;
+}
+
+.main{
+    padding-block: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+.s1-text{
+    font-family: 'Roboto', sans-serif;
+}
+.s1-img{
+    text-align: end;
+}
+.s1-img img{
+    
+    width: 80%;
+}
+
+.s1-title{
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.s1-content{
+    font-size: 18px;
+    font-weight: 400;
+    margin-block: 18px;
+}
+.s1-caution{
+    font-size: 16px;
+    font-weight: 400;
+    margin-block: 18px;
+    padding-bottom: 32px;
+    opacity: 0.75;
+}
+.div-link{
+    display: flex;
+    color: #128c7e;
+    padding-bottom: 16px;
+}
+.s1-link-img{
+    padding-right: 16px;
+}
+.s1-link-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.s1-link-arrow{
+    transform: rotate(180deg);
+    transform-origin: 75% 55%;
+    padding-left: 8px;
+}
